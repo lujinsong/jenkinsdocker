@@ -14,7 +14,10 @@
     "pug": "2.0.0-beta11"
   },
   "repository": {
-    "type":"git",
-    "url":"https://github.com/lujinsong/jenkinsdocker"
-  }
+    "type": "git",
+    "url": "https://github.com/lujinsong/jenkinsdocker"
+  },
+  "keywords": ["jenkins", "docker", "dockerfile"],
+  "author":"Jinsong Lu",
+  "license":"ISC"
 }
