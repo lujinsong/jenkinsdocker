@@ -38,4 +38,10 @@ EXPOSE 3000
 Since it use the official node base image onbuild, it inherits the following actions.
 1. Copy all the files in the current directory to /usr/src/app folder inside the container image
 2. Run npm install to install any dependencies for the app
-3. Specify npm start as the command when the container starts, similar to the Docker Command "Run npm start"
+3. Specify npm start as the command when the container starts, similar to the Docker Command "Run npm start" 
+## Create pipeline configuration inside the Jenkinsfile, so it becomes part of the application code
+Jenkinsfile
+```
+
+```
+

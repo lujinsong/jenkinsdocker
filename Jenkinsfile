@@ -6,7 +6,7 @@ node{
     }
     stage('Build image'){
         /* Build docker image, similar to docker build on the command line */
-        app = docker.build("jenkinsdocker")
+        app = docker.build("lujasper/devops:jenkinsdocker")
     }
     stage('Test image')
     {
