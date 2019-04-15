@@ -44,4 +44,8 @@ Jenkinsfile
 ```
 
 ```
+## Run the image lujasper/devops:jenkinsdocker
+```
+docker run -d -p 3000:3000 lujasper/devops:jenkinsdocker
+```
 
