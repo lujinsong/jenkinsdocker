@@ -17,9 +17,13 @@ node{
     }
     stage('Push image')
     {
+        /*Using docker with pipeline https://jenkins.io/doc/book/pipeline/docker/*/
         docker.withRegistry('https://registry.hub.docker.com','docker-hub-credentials'){
-            app.push("${env.BUILD_NUMBER}")
+            /*app.push("${env.BUILD_NUMBER}")
             app.push("latest")
+                add this image to lujasper/devops repository, tag it as jenkinsdocker
+            */
+            app.push("jenkinsdocker")
         }
     }
 }
